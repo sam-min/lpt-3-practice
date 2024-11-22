@@ -1,3 +1,5 @@
+//This code received 2.5/2.5 on autograder alongwith th e following warnings:
+
 `define ZERO 8'b0
 `define GARBAGE 8'bx
 
@@ -106,7 +108,7 @@ endmodule
 //
 
 //
-module q1 (clk,in,sr,Rn,w,aluop,lt,tsel,bsel,out);
+module datapath (clk,in,sr,Rn,w,aluop,lt,tsel,bsel,out);
 
 input clk, w, lt;
 input [7:0] in;
